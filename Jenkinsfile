@@ -8,7 +8,7 @@ pipeline{
             }
             stage('Make Files'){
                 steps{
-                    echo "HI"
+                    echo "HI "
                 }
             }
         }
