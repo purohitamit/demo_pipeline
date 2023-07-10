@@ -3,12 +3,12 @@ pipeline{
         stages{
             stage('Make Directory'){
                 steps{
-                    sh echo "Test"
+                    echo "Test"
                 }
             }
             stage('Make Files'){
                 steps{
-                    sh echo "HI"
+                    echo "HI"
                 }
             }
         }
